@@ -1,0 +1,2446 @@
+<?php
+
+include 'header.php';
+?>
+<style>html, body { max-width: 100vw; overflow-x: hidden; }</style>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Buy Premium Threads Accounts | Verified & Bulk Threads Accounts</title>
+
+    <!-- Premium Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Font Awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- GSAP & ScrollTrigger & CustomEase -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/CustomEase.min.js"></script>
+    
+    <!-- Three.js for 3D Background Effects -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    
+<!-- =========================================================
+   HERO SECTION
+   ========================================================= -->
+<section class="threads-hero-master-nexus section-padding" id="threadsHeroMaster" style="background: #ffffff; position:relative; overflow-x: hidden; overflow-y: hidden;">
+    <!-- Subtle background shapes -->
+    <div style="position:absolute; top:-20%; right:-10%; width:500px; height:500px; background:radial-gradient(circle, rgba(0,0,0,0.04) 0%, transparent 70%); border-radius:50%; pointer-events:none;"></div>
+    <div style="position:absolute; bottom:-20%; left:-10%; width:400px; height:400px; background:radial-gradient(circle, rgba(0,0,0,0.03) 0%, transparent 70%); border-radius:50%; pointer-events:none;"></div>
+
+    <div class="container position-relative" style="z-index:2;">
+        <div class="row align-items-center g-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-duration="800">
+                <span class="threads-hero-badge" style="display:inline-flex; align-items:center; gap:8px; background:#f1f3f4; color:#444; font-weight:700; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:60px; margin-bottom:16px; border:0.5px solid #e8eaed;">
+                    <i class="fab fa-threads me-2" style="color:#000000;"></i> Premium Threads Solutions
+                </span>
+                <h1 class="threads-hero-headline" style="font-size:clamp(2.8rem,7vw,4.8rem); font-weight:800; line-height:1.08; color:#111; margin-bottom:20px; font-family:'Playfair Display',serif;">
+                    Premium <span style="position:relative; display:inline-block; color:#000000;">Threads<span style="position:absolute; bottom:4px; left:0; width:100%; height:8px; background:rgba(0,0,0,0.08); border-radius:4px;"></span></span> Accounts
+                </h1>
+                <p class="threads-hero-subtitle" style="font-size:1.1rem; color:rgba(0,0,0,0.6); max-width:520px; margin:0 0 28px 0; line-height:1.7;">
+                    High-quality Threads accounts for business, marketing, registration, verification, and digital growth.
+                </p>
+                <div class="threads-hero-cta-group d-flex flex-wrap gap-3">
+                    <a href="#threadsProducts" class="threads-hero-btn-primary" style="background:#000000; color:#fff; border:none; padding:14px 36px; border-radius:60px; font-weight:700; font-size:0.95rem; transition:all 0.3s; text-decoration:none; display:inline-flex; align-items:center; gap:10px; box-shadow:0 8px 24px rgba(0,0,0,0.15);">
+                        <i class="fas fa-rocket"></i> Explore Accounts
+                    </a>
+                    <a href="#threadsFAQs" class="threads-hero-btn-secondary" style="background:transparent; color:#444; border:1.5px solid #dadce0; padding:12px 32px; border-radius:60px; font-weight:600; font-size:0.95rem; transition:all 0.3s; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
+                        <i class="fas fa-circle-question"></i> Learn More
+                    </a>
+                </div>
+                <div class="threads-hero-stats d-flex flex-wrap gap-4 mt-5">
+                    <div class="threads-stat-item" style="text-align:center;">
+                        <div class="threads-stat-number" style="font-size:2.2rem; font-weight:800; color:#111; display:block; line-height:1.1;" data-threads-counter=""></div>
+                        <div style="font-size:0.8rem; color:#80868b;"></div>
+                    </div>
+                    <div class="threads-stat-item" style="text-align:center;">
+                        <div class="threads-stat-number" style="font-size:2.2rem; font-weight:800; color:#111; display:block; line-height:1.1;" data-threads-counter=""></div>
+                        <div style="font-size:0.8rem; color:#80868b;"></div>
+                    </div>
+                    <div class="threads-stat-item" style="text-align:center;">
+                        <div class="threads-stat-number" style="font-size:2.2rem; font-weight:800; color:#111; display:block; line-height:1.1;" data-threads-counter=""></div>
+                        <div style="font-size:0.8rem; color:#80868b;"></div>
+                    </div>
+                    <div class="threads-stat-item" style="text-align:center;">
+                        <div class="threads-stat-number" style="font-size:2.2rem; font-weight:800; color:#111; display:block; line-height:1.1;" data-threads-counter=""></div>
+                        <div style="font-size:0.8rem; color:#80868b;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-duration="800">
+                <!-- <div class="threads-hero-image-wrapper" style="background:white; border-radius:24px; padding:1.5rem; box-shadow:0 20px 50px rgba(0,0,0,0.08);">
+                    <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='500' height='350' viewBox='0 0 500 350'%3E%3Crect width='500' height='350' fill='%23f5f0eb' rx='16'/%3E%3Ctext x='60' y='100' font-family='Inter' font-size='32' fill='%23023b45' font-weight='800'%3E%F0%9F%93%A7%20Threads%20Premium%3C/text%3E%3Ctext x='60' y='150' font-family='Inter' font-size='18' fill='%23023b45' opacity='0.8'%3EVerified%20%26%20Aged%20Threads%20Accounts%3C/text%3E%3Ctext x='60' y='190' font-family='Inter' font-size='16' fill='%23023b45' opacity='0.7'%3E%E2%9C%94%EF%B8%8F%20Phone%20Verified%20%7C%20Secure%20Login%3C/text%3E%3Ctext x='60' y='225' font-family='Inter' font-size='16' fill='%23023b45' opacity='0.7'%3E%E2%9C%94%EF%B8%8F%20Recovery%20Access%20%7C%20Bulk%20Available%3C/text%3E%3Ccircle cx='400' cy='110' r='50' fill='%23023b45' opacity='0.06'/%3E%3Ctext x='385' y='122' font-family='Inter' font-size='40' fill='%23023b45'%3E%F0%9F%93%A7%3C/text%3E%3C/svg%3E" alt="Premium Threads Accounts" style="width:100%; height:auto; display:block; border-radius:12px;">
+                </div>
+            </div> -->
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+   THREADS ACCOUNT TYPES
+   ========================================================= -->
+<section class="threads-types-master-nexus section-padding" id="threadsAccountTypes" style="background: rgba(255,255,255,0.12);">
+    <div class="container">
+        <div class="threads-types-header text-center mb-5" data-aos="fade-up">
+            <span class="threads-types-badge" style="display:inline-flex; align-items:center; gap:8px; background:rgba(2,59,69,0.12); color:#023b45; font-weight:700; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:60px; margin-bottom:16px; border:0.5px solid rgba(2,59,69,0.15);">
+                <i class="fas fa-th-large me-2"></i> Account Types
+            </span>
+            <h2 class="threads-types-title" style="font-size:clamp(2rem,4vw,2.8rem); font-weight:800; line-height:1.15; color:#023b45; font-family:'Playfair Display',serif;">
+                Choose Your <span style="position:relative; display:inline-block; color:#023b45;">Threads<span style="position:absolute; bottom:2px; left:0; width:100%; height:4px; background:rgba(2,59,69,0.2); border-radius:4px;"></span></span> Package
+            </h2>
+            <p style="color:rgba(2,59,69,0.7); max-width:550px; margin:0 auto;">Select the perfect Threads account type for your needs</p>
+        </div>
+        <div class="threads-types-grid row g-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- Type 1: Fresh Threads -->
+            <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="100">
+                <div class="threads-type-card" style="background:white; border-radius:24px; padding:2rem 1.5rem; box-shadow:0 8px 25px rgba(0,0,0,0.05); transition:all 0.4s; height:100%; border:1px solid rgba(2,59,69,0.04);">
+                    <div style="font-size:2.8rem; color:#023b45; margin-bottom:12px;">🆕</div>
+                    <h3 style="color:#023b45; font-weight:800; font-size:1.4rem; margin-bottom:4px;">Fresh Threads Accounts</h3>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem; margin-bottom:12px;">Brand new accounts, ready for immediate use</p>
+                    <ul style="list-style:none; padding:0; margin:0 0 16px 0;">
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Instantly available</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> No activity history</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Perfect for new starts</li>
+                    </ul>
+                    <div style="font-size:1.6rem; font-weight:800; color:#023b45; margin:8px 0;"></div>
+                    <!-- <a href="#threadsProducts" class="threads-type-btn" style="background:#023b45; color:white; border:none; padding:8px 24px; border-radius:60px; font-weight:700; font-size:0.8rem; text-decoration:none; display:inline-block; transition:all 0.3s;"></a> -->
+                </div>
+            </div>
+            <!-- Type 2: PVA Threads -->
+            <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="150">
+                <div class="threads-type-card" style="background:white; border-radius:24px; padding:2rem 1.5rem; box-shadow:0 8px 25px rgba(0,0,0,0.05); transition:all 0.4s; height:100%; border:2px solid #023b45; position:relative;">
+                    <div style="position:absolute; top:-10px; right:20px; background:#023b45; color:white; font-size:0.6rem; font-weight:700; padding:3px 12px; border-radius:20px; text-transform:uppercase;">Popular</div>
+                    <div style="font-size:2.8rem; color:#023b45; margin-bottom:12px;">📞</div>
+                    <h3 style="color:#023b45; font-weight:800; font-size:1.4rem; margin-bottom:4px;">PVA Threads Accounts</h3>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem; margin-bottom:12px;">Phone Verified Accounts with maximum security</p>
+                    <ul style="list-style:none; padding:0; margin:0 0 16px 0;">
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Phone verified</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> High trust score</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Recovery access</li>
+                    </ul>
+                    <!-- <div style="font-size:1.6rem; font-weight:800; color:#023b45; margin:8px 0;">$4.99</div> -->
+                    <!-- <a href="#threadsProducts" class="threads-type-btn" style="background:#023b45; color:white; border:none; padding:8px 24px; border-radius:60px; font-weight:700; font-size:0.8rem; text-decoration:none; display:inline-block; transition:all 0.3s;">Order Now →</a> -->
+                </div>
+            </div>
+            <!-- Type 3: Aged Threads -->
+            <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="200">
+                <div class="threads-type-card" style="background:white; border-radius:24px; padding:2rem 1.5rem; box-shadow:0 8px 25px rgba(0,0,0,0.05); transition:all 0.4s; height:100%; border:1px solid rgba(2,59,69,0.04);">
+                    <div style="font-size:2.8rem; color:#023b45; margin-bottom:12px;">📜</div>
+                    <h3 style="color:#023b45; font-weight:800; font-size:1.4rem; margin-bottom:4px;">Aged Threads Accounts</h3>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem; margin-bottom:12px;">2+ year old accounts with established history</p>
+                    <ul style="list-style:none; padding:0; margin:0 0 16px 0;">
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> 2+ years old</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> High reputation</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Activity history</li>
+                    </ul>
+                    <!-- <div style="font-size:1.6rem; font-weight:800; color:#023b45; margin:8px 0;">$7.99</div>
+                    <a href="#threadsProducts" class="threads-type-btn" style="background:#023b45; color:white; border:none; padding:8px 24px; border-radius:60px; font-weight:700; font-size:0.8rem; text-decoration:none; display:inline-block; transition:all 0.3s;">Order Now →</a> -->
+                </div>
+            </div>
+            <!-- Type 4: Business Threads -->
+            <!-- <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="250"> -->
+                <!-- <div class="threads-type-card" style="background:white; border-radius:24px; padding:2rem 1.5rem; box-shadow:0 8px 25px rgba(0,0,0,0.05); transition:all 0.4s; height:100%; border:1px solid rgba(2,59,69,0.04);">
+                    <div style="font-size:2.8rem; color:#023b45; margin-bottom:12px;">💼</div>
+                    <h3 style="color:#023b45; font-weight:800; font-size:1.4rem; margin-bottom:4px;">Business Threads Accounts</h3>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem; margin-bottom:12px;">Premium accounts optimized for business use</p>
+                    <ul style="list-style:none; padding:0; margin:0 0 16px 0;">
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Business ready</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> High trust score</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Bulk discounts</li>
+                    </ul> -->
+                    <!-- <div style="font-size:1.6rem; font-weight:800; color:#023b45; margin:8px 0;">$9.99</div>
+                    <a href="#threadsProducts" class="threads-type-btn" style="background:#023b45; color:white; border:none; padding:8px 24px; border-radius:60px; font-weight:700; font-size:0.8rem; text-decoration:none; display:inline-block; transition:all 0.3s;">Order Now →</a> -->
+                <!-- </div>
+            </div> -->
+            <!-- Type 5: Bulk Threads -->
+            <!-- <div class="col-md-6 col-lg-4" data-aos="flip-up" data-aos-delay="300"> -->
+                <!-- <div class="threads-type-card" style="background:white; border-radius:24px; padding:2rem 1.5rem; box-shadow:0 8px 25px rgba(0,0,0,0.05); transition:all 0.4s; height:100%; border:1px solid rgba(2,59,69,0.04);">
+                    <div style="font-size:2.8rem; color:#023b45; margin-bottom:12px;">📦</div>
+                    <h3 style="color:#023b45; font-weight:800; font-size:1.4rem; margin-bottom:4px;">Bulk Threads Packages</h3>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem; margin-bottom:12px;">Large quantity accounts with special pricing</p>
+                    <ul style="list-style:none; padding:0; margin:0 0 16px 0;">
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Volume discounts</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Custom packages</li>
+                        <li style="padding:4px 0; display:flex; align-items:center; gap:8px; font-size:0.85rem; color:rgba(2,59,69,0.8);"><i class="fas fa-check-circle" style="color:#023b45;"></i> Fast delivery</li>
+                    </ul>
+                    <div style="font-size:1.6rem; font-weight:800; color:#023b45; margin:8px 0;">Contact</div>
+                    <a href="#threadsProducts" class="threads-type-btn" style="background:#023b45; color:white; border:none; padding:8px 24px; border-radius:60px; font-weight:700; font-size:0.8rem; text-decoration:none; display:inline-block; transition:all 0.3s;">Inquire Now →</a>
+                </div>
+            </div>
+        </div>
+    </div> -->
+</section>
+
+<!-- =========================================================
+   PRODUCT SHOWCASE SECTION
+   ========================================================= -->
+
+   
+    <style>
+        /* ============================================
+           GLOBAL STYLES
+        ============================================ */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .cards-premium-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* ============================================
+           SECTION HEADER
+        ============================================ */
+        .section-head {
+            text-align: center;
+            margin-bottom: 3.5rem;
+        }
+        .section-badge {
+            background: rgba(2, 59, 69, 0.15);
+            backdrop-filter: blur(4px);
+            display: inline-block;
+            padding: 0.4rem 1.2rem;
+            border-radius: 60px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: #023b45;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+            border: 0.5px solid rgba(2, 59, 69, 0.2);
+        }
+        .section-badge i {
+            margin-right: 6px;
+        }
+
+        .section-title-head {
+            font-size: clamp(2.2rem, 4.5vw, 3.2rem);
+            font-weight: 800;
+            background: linear-gradient(125deg, #023b45, #1a6b7a, #023b45);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            letter-spacing: -0.02em;
+            font-family: 'Playfair Display', serif;
+        }
+        .section-sub-head {
+            color: #023b45;
+            font-size: 1.05rem;
+            max-width: 550px;
+            margin: 0.5rem auto 0;
+            font-weight: 500;
+            opacity: 0.85;
+        }
+
+        /* ============================================
+           PREMIUM PRODUCT CARDS
+        ============================================ */
+        .attract-card {
+            background: #ffffff;
+            backdrop-filter: blur(2px);
+            border-radius: 2rem;
+            transition: all 0.35s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(2, 59, 69, 0.06);
+        }
+
+        /* Top image */
+        .card-top-image {
+            width: 100%;
+            height: 180px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #023b45, #1a6b7a);
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+            position: relative;
+        }
+        .card-top-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.5s ease;
+            display: block;
+        }
+        .attract-card:hover .card-top-image img {
+            transform: scale(1.06);
+        }
+
+        /* Card content */
+        .card-content {
+            padding: 1.8rem 1.5rem 1.8rem 1.5rem;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Animated border glow */
+        .attract-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 2rem;
+            padding: 2px;
+            background: linear-gradient(125deg, #023b45, #1a6b7a, #e9cba7, #023b45);
+            background-size: 200% 200%;
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.4s;
+            pointer-events: none;
+        }
+        .attract-card:hover::after {
+            opacity: 1;
+            animation: borderGlowMove 2.5s ease infinite;
+        }
+        @keyframes borderGlowMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .attract-card:hover {
+            transform: translateY(-12px);
+            box-shadow: 0 28px 40px -16px rgba(0, 0, 0, 0.3);
+            background: #ffffff;
+        }
+
+        /* Badges */
+        .badge-extra {
+            position: absolute;
+            top: 1.2rem;
+            left: 1.2rem;
+            background: linear-gradient(105deg, #023b45, #1f6e7a);
+            color: white;
+            font-size: 0.65rem;
+            font-weight: 800;
+            padding: 0.3rem 1rem;
+            border-radius: 60px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            z-index: 5;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+        }
+        .badge-hot {
+            background: linear-gradient(105deg, #c0392b, #e74c3c);
+            color: white;
+        }
+        .badge-prem {
+            background: linear-gradient(105deg, #8B7355, #B7A08B);
+            color: #023b45;
+        }
+        .badge-best {
+            background: linear-gradient(105deg, #f39c12, #f1c40f);
+            color: #023b45;
+        }
+        .badge-new {
+            background: linear-gradient(105deg, #27ae60, #2ecc71);
+            color: white;
+        }
+        .badge-trend {
+            background: linear-gradient(105deg, #8e44ad, #9b59b6);
+            color: white;
+        }
+
+        /* Card title */
+        .card-title {
+            font-size: 1.6rem;
+            font-weight: 800;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.2rem;
+            color: #023b45 !important;
+            font-family: 'Playfair Display', serif;
+        }
+        .short-desc {
+            font-size: 0.85rem;
+            color: #023b45 !important;
+            margin-bottom: 0.8rem;
+            font-weight: 500;
+            opacity: 0.8;
+        }
+
+        /* Rating */
+        .product-rating {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 0.65rem;
+            margin: 0.25rem 0 0.75rem 0;
+            transition: all 0.2s ease;
+        }
+        .star-rating {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.15rem;
+        }
+        .star-rating i {
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: transform 0.15s ease, color 0.2s, filter 0.2s;
+            color: #d4c4b0;
+        }
+        .star-rating i.hover-star {
+            transform: scale(1.15);
+            filter: brightness(1.2);
+        }
+        .star-rating i.active-star {
+            color: #f5b042;
+            text-shadow: 0 0 3px rgba(245, 176, 66, 0.5);
+        }
+        .rating-count {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #023b45;
+            background: rgba(2, 59, 69, 0.08);
+            padding: 0.25rem 0.7rem;
+            border-radius: 40px;
+            letter-spacing: -0.01em;
+            backdrop-filter: blur(2px);
+            transition: all 0.2s;
+            cursor: pointer;
+        }
+        .rating-count:hover {
+            background: rgba(2, 59, 69, 0.18);
+            transform: translateY(-1px);
+        }
+
+        /* Price */
+        .price-modern {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin: 0.5rem 0 0.2rem;
+        }
+        .current-price {
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #023b45 !important;
+        }
+        .price-unit {
+            font-size: 0.9rem;
+            font-weight: 600;
+            vertical-align: super;
+        }
+        .old-price {
+            font-size: 1rem;
+            color: #023b45;
+            opacity: 0.5;
+            text-decoration: line-through;
+            font-weight: 500;
+        }
+        .discount-badge {
+            background: rgba(231, 76, 60, 0.15);
+            color: #c0392b;
+            font-size: 0.7rem;
+            font-weight: 700;
+            padding: 0.15rem 0.6rem;
+            border-radius: 40px;
+            margin-left: 0.3rem;
+        }
+        .qty-badge {
+            background: rgba(2, 59, 69, 0.08);
+            padding: 0.3rem 1rem;
+            border-radius: 60px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            color: #023b45;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: auto;
+        }
+        .stock-info {
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #023b45;
+            opacity: 0.7;
+            margin-top: 0.2rem;
+        }
+        .stock-info .in-stock {
+            color: #27ae60;
+        }
+        .stock-info .out-stock {
+            color: #e74c3c;
+        }
+
+        /* Features grid */
+        .features-mega {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.4rem 0.8rem;
+            background: rgba(2, 59, 69, 0.04);
+            padding: 0.8rem;
+            border-radius: 1.2rem;
+            margin: 0.8rem 0 1.2rem;
+        }
+        .feat {
+            font-size: 0.7rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            color: #023b45 !important;
+        }
+        .feat i {
+            color: #1f6e7a;
+            font-size: 0.65rem;
+        }
+
+        /* Buttons */
+        .btn-group-premium {
+            display: flex;
+            gap: 0.8rem;
+            margin-top: auto;
+        }
+        .btn-gradient-cart {
+            background: linear-gradient(95deg, #023b45, #1f6e7a);
+            border: none;
+            color: white !important;
+            font-weight: 700;
+            padding: 0.75rem 1rem;
+            border-radius: 60px;
+            font-size: 0.85rem;
+            transition: all 0.25s;
+            flex: 1;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            position: relative;
+            overflow: hidden;
+        }
+        .btn-gradient-cart:hover {
+            background: linear-gradient(95deg, #1f6e7a, #023b45);
+            transform: scale(0.98);
+            box-shadow: 0 10px 20px -6px rgba(2, 59, 69, 0.5);
+        }
+        .btn-gradient-cart.loading {
+            pointer-events: none;
+            opacity: 0.7;
+        }
+        .btn-gradient-cart.loading .cart-text {
+            display: none;
+        }
+        .btn-gradient-cart.loading .spinner {
+            display: inline-block;
+        }
+        .btn-gradient-cart.success {
+            background: linear-gradient(95deg, #27ae60, #2ecc71);
+        }
+
+        .btn-gradient-cart .spinner {
+            display: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-top: 2px solid #fff;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .btn-outline-details {
+            background: transparent;
+            border: 1.5px solid rgba(2, 59, 69, 0.3);
+            color: #023b45 !important;
+            font-weight: 700;
+            padding: 0.75rem 1rem;
+            border-radius: 60px;
+            flex: 1;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+        .btn-outline-details:hover {
+            border-color: #023b45;
+            background: rgba(2, 59, 69, 0.06);
+            transform: translateY(-2px);
+        }
+
+        /* Ripple */
+        .ripple {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            transform: scale(0);
+            animation: rippleAnim 0.5s linear;
+            pointer-events: none;
+        }
+        @keyframes rippleAnim {
+            to {
+                transform: scale(6);
+                opacity: 0;
+            }
+        }
+
+        /* ============================================
+           REVIEW MODAL
+        ============================================ */
+        .review-modal .modal-content {
+            background: #fef8f0;
+            border-radius: 2rem;
+            border: 1px solid #B7A08B;
+        }
+        .rating-distribution {
+            background: rgba(2, 59, 69, 0.05);
+            border-radius: 1.5rem;
+            padding: 1.2rem;
+        }
+        .distro-bar {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: 0.6rem;
+        }
+        .distro-label {
+            width: 45px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: #023b45;
+        }
+        .bar-bg {
+            flex: 1;
+            height: 8px;
+            background: rgba(2, 59, 69, 0.1);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .bar-fill {
+            width: 0%;
+            height: 100%;
+            background: #f5b042;
+            border-radius: 20px;
+            transition: width 0.6s cubic-bezier(0.2, 0.9, 0.4, 1.1);
+        }
+        .distro-percent {
+            width: 45px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: #023b45;
+        }
+        .review-card-item {
+            background: white;
+            border-radius: 1.25rem;
+            padding: 1rem;
+            margin-bottom: 0.8rem;
+            transition: all 0.2s;
+            border: 1px solid rgba(183, 160, 139, 0.2);
+        }
+        .review-card-item:hover {
+            transform: translateX(4px);
+            background: #ffffffd9;
+        }
+        .avatar-initial {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #023b45;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 800;
+            font-size: 1rem;
+            flex-shrink: 0;
+        }
+
+        /* ============================================
+           DETAILS MODAL
+        ============================================ */
+        .detail-modal .modal-content {
+            background: #fef8f0;
+            border-radius: 2rem;
+            border: 1px solid #B7A08B;
+        }
+        .detail-image-wrap {
+            background: linear-gradient(135deg, #023b45, #1a6b7a);
+            border-radius: 1.5rem;
+            overflow: hidden;
+            height: 250px;
+        }
+        .detail-image-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .detail-feature-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 0.4rem 0;
+            color: #023b45;
+            font-size: 0.9rem;
+        }
+        .detail-feature-item i {
+            color: #1f6e7a;
+            width: 20px;
+        }
+
+        /* ============================================
+           TOAST NOTIFICATION
+        ============================================ */
+        .toast-notification {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #023b45;
+            backdrop-filter: blur(12px);
+            color: white;
+            padding: 14px 24px;
+            border-radius: 60px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            z-index: 9999;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            animation: slideInRight 0.4s ease;
+            border: 1px solid rgba(183, 160, 139, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            min-width: 200px;
+        }
+        .toast-notification.success {
+            border-left: 4px solid #2ecc71;
+        }
+        .toast-notification.error {
+            border-left: 4px solid #e74c3c;
+        }
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        /* ============================================
+           RESPONSIVE
+        ============================================ */
+        @media (max-width: 768px) {
+            .card-title {
+                font-size: 1.4rem;
+            }
+            .current-price {
+                font-size: 1.8rem;
+            }
+            .star-rating i {
+                font-size: 1rem;
+            }
+            .features-mega {
+                grid-template-columns: 1fr 1fr;
+                gap: 0.3rem 0.6rem;
+                padding: 0.6rem;
+            }
+            .feat {
+                font-size: 0.65rem;
+            }
+            .card-top-image {
+                height: 140px;
+            }
+            .attract-card {
+                border-radius: 1.5rem;
+            }
+            .card-top-image {
+                border-top-left-radius: 1.5rem;
+                border-top-right-radius: 1.5rem;
+            }
+            .attract-card::after {
+                border-radius: 1.5rem;
+            }
+            .qty-badge {
+                font-size: 0.65rem;
+                padding: 0.2rem 0.7rem;
+            }
+            .badge-extra {
+                font-size: 0.55rem;
+                padding: 0.2rem 0.7rem;
+                top: 0.8rem;
+                left: 0.8rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .btn-group-premium {
+                flex-direction: column;
+                gap: 0.6rem;
+            }
+            .btn-gradient-cart,
+            .btn-outline-details {
+                width: 100%;
+            }
+            .card-title {
+                font-size: 1.2rem;
+            }
+            .current-price {
+                font-size: 1.5rem;
+            }
+            .card-content {
+                padding: 1.2rem 1rem 1.2rem 1rem;
+            }
+            .card-top-image {
+                height: 120px;
+            }
+            .price-modern {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.3rem;
+            }
+            .qty-badge {
+                margin-left: 0;
+            }
+            .features-mega {
+                grid-template-columns: 1fr 1fr;
+                gap: 0.2rem 0.4rem;
+                padding: 0.5rem;
+            }
+            .feat {
+                font-size: 0.6rem;
+            }
+            .section-title-head {
+                font-size: 1.8rem;
+            }
+            .detail-image-wrap {
+                height: 180px;
+            }
+        }
+
+        @media (min-width: 1400px) {
+            .cards-premium-container {
+                max-width: 1500px;
+            }
+        }
+
+        /* ============================================
+           RESPONSIVE: DIRECT FIXES FOR OVERFLOW ISSUES
+        ============================================ */
+        /* ── Hero blob backgrounds: too big on mobile → hide ── */
+        @media (max-width: 768px) {
+            .threads-hero-master-nexus > div[style*="position:absolute"] {
+                display: none !important;
+            }
+        }
+        /* ── Hero subtitle: fixed max-width overflows on small screens ── */
+        @media (max-width: 576px) {
+            .threads-hero-subtitle { max-width: 100% !important; }
+        }
+        /* ── Card images: fixed height needs to scale ── */
+        @media (max-width: 576px) {
+            .card-top-image { height: 110px !important; }
+            .attract-card { margin-bottom: 0 !important; }
+            .card-content { padding: 0.8rem !important; }
+            .card-title { font-size: 1.1rem !important; }
+            .current-price { font-size: 1.3rem !important; }
+            .old-price { font-size: 0.85rem !important; }
+            .qty-badge { font-size: 0.6rem !important; padding: 0.15rem 0.5rem !important; }
+            .features-mega { padding: 0.4rem !important; gap: 0.15rem 0.3rem !important; }
+            .feat { font-size: 0.55rem !important; gap: 3px !important; }
+            .btn-gradient-cart, .btn-outline-details { font-size: 0.72rem !important; padding: 0.5rem 0.6rem !important; }
+        }
+        /* ── Modal: fit mobile screen ── */
+        @media (max-width: 576px) {
+            .detail-image-wrap { height: 140px !important; }
+            .detail-modal .modal-body { padding: 12px !important; }
+            .detail-modal .modal-footer { padding: 12px !important; }
+            .modal-dialog { margin: 8px !important; }
+            #detailProductPrice { font-size: 1.5rem !important; }
+            .detail-feature-item { font-size: 0.8rem !important; }
+        }
+        /* ── Customer reviews section ── */
+        @media (max-width: 576px) {
+            .review-card-item { padding: 0.8rem !important; }
+            .rating-distribution { padding: 1rem !important; }
+        }
+        /* ── FAQ section ── */
+        @media (max-width: 576px) {
+            .faq-accordion-final .accordion-button { font-size: 0.85rem !important; padding: 12px 14px !important; }
+            .faq-accordion-final .accordion-body { font-size: 0.8rem !important; padding: 0 14px 14px !important; }
+        }
+        /* ── Why choose us / features section ── */
+        @media (max-width: 576px) {
+            .feature-row-alt { padding: 0.6rem 0.8rem !important; }
+            .feature-row-alt span { font-size: 0.8rem !important; }
+        }
+        /* ── Stats counter section ── */
+        @media (max-width: 576px) {
+            .stat-number-alt { font-size: 1.8rem !important; }
+            .stat-label-alt { font-size: 0.75rem !important; }
+        }
+        /* ── Product images that have inline width="50" ── */
+        @media (max-width: 576px) {
+            .table img[width="50"] { width: 28px !important; height: 28px !important; }
+        }
+        /* ── Navbar in product card pages ── */
+        @media (max-width: 991px) {
+            .section-title-head { font-size: 2rem !important; }
+            .section-head { margin-bottom: 2rem !important; }
+            .cards-premium-container { padding: 0 10px; }
+        }
+        /* ── Small desktop: squeeze 4 cards ── */
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+            .cards-premium-container { max-width: 960px; }
+            .card-title { font-size: 1.3rem; }
+            .current-price { font-size: 1.6rem; }
+            .card-content { padding: 1.2rem 1rem; }
+            .features-mega { gap: 0.2rem 0.4rem; padding: 0.5rem; }
+            .feat { font-size: 0.6rem; }
+            .btn-gradient-cart, .btn-outline-details { font-size: 0.78rem; padding: 0.6rem 0.8rem; }
+        }
+
+        /* AOS override */
+        [data-aos] {
+            pointer-events: none;
+        }
+        [data-aos].aos-animate {
+            pointer-events: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- =========================================
+    PREMIUM PRODUCT CARDS SECTION
+    ========================================= -->
+    <div class="cards-premium-container">
+        <!-- Section Header -->
+        <div class="section-head" data-aos="fade-up">
+            <div class="section-badge"><i class="fas fa-crown"></i> Elite Marketplace</div>
+            <h2 class="section-title-head"><em>Premium Social Accounts</em></h2>
+            <p class="section-sub-head"><em>Fresh, verified &amp; instantly delivered — trusted by 15k+ creators worldwide</em></p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4" id="productsGrid" data-aos="fade-up">
+
+            <!-- =========================================
+            CARD 1: GMAIL
+            ========================================= -->
+            <div class="col" data-product-id="threads">
+                <div class="attract-card">
+                    <div class="badge-extra badge-best"><i class="fas fa-star"></i> -5%</div>
+                    <div class="card-top-image">
+                        <img src=" ../Image/threads.png" alt="Threads Accounts">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title"><em>Threads Accounts</em></h3>
+                        <p class="short-desc"><em>Premium Threads ready, aged profiles, instant access</em></p>
+                        <h5><em>Fresh Account</em></h5>
+                        <div class="product-rating">
+                            <div class="star-rating" data-product="threads"></div>
+                            <span class="rating-count" data-product="threads">(128 reviews)</span>
+                        </div>
+                        <div class="price-modern">
+                            <span class="current-price"><span class="price-unit">$</span>9</span>
+                            <span class="old-price">$16</span>
+                            <span class="discount-badge">-6%</span>
+                            <span class="qty-badge"><i class="fas fa-database"></i> 50 Accounts</span>
+                        </div>
+                        <div class="stock-info"><i class="fas fa-check-circle in-stock"></i> In Stock — <strong>245</strong> available</div>
+                        <div class="features-mega">
+                            <div class="feat"><i class="fas fa-check-circle"></i> Fresh Accounts</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Verified Accounts</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Secure Login</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Fast Delivery</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> High Quality</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> 24H Replacement</div>
+                        </div>
+                        <div class="btn-group-premium">
+                            <button class="btn-outline-details detailBtn" data-name="Threads Accounts"><i class="fas fa-eye"></i> Details</button>
+                            <button class="btn-gradient-cart addCartBtn" data-name="Threads Accounts"><i class="fas fa-shopping-cart"></i> <span class="cart-text">Add to Cart</span><span class="spinner"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- =========================================
+            CARD 2: FACEBOOK
+            ========================================= -->
+
+  <div class="col" data-product-id="threads">
+                <div class="attract-card">
+                    <div class="badge-extra badge-best"><i class="fas fa-star"></i> -5%</div>
+                    <div class="card-top-image">
+                        <img src=" ../Image/threads.png" alt="Threads Accounts">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title"><em>Threads Accounts</em></h3>
+                        <p class="short-desc"><em>Premium Threads ready, aged profiles, instant access</em></p>
+                        <h5><em>Fresh Account</em></h5>
+                        <div class="product-rating">
+                            <div class="star-rating" data-product="threads"></div>
+                            <span class="rating-count" data-product="threads">(128 reviews)</span>
+                        </div>
+                        <div class="price-modern">
+                            <span class="current-price"><span class="price-unit">$</span>18</span>
+                            <span class="old-price">$30</span>
+                            <span class="discount-badge">-16%</span>
+                            <span class="qty-badge"><i class="fas fa-database"></i> 100 Accounts</span>
+                        </div>
+                        <div class="stock-info"><i class="fas fa-check-circle in-stock"></i> In Stock — <strong>245</strong> available</div>
+                        <div class="features-mega">
+                            <div class="feat"><i class="fas fa-check-circle"></i> Fresh Accounts</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Verified Accounts</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Secure Login</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Fast Delivery</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> High Quality</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> 24H Replacement</div>
+                        </div>
+                        <div class="btn-group-premium">
+                            <button class="btn-outline-details detailBtn" data-name="Threads Accounts"><i class="fas fa-eye"></i> Details</button>
+                            <button class="btn-gradient-cart addCartBtn" data-name="Threads Accounts"><i class="fas fa-shopping-cart"></i> <span class="cart-text">Add to Cart</span><span class="spinner"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- =========================================
+            CARD 3: INSTAGRAM
+            ========================================= -->
+  <div class="col" data-product-id="threads">
+                <div class="attract-card">
+                    <div class="badge-extra badge-best"><i class="fas fa-star"></i> -12%</div>
+                    <div class="card-top-image">
+                        <img src=" ../Image/threads.png" alt="Threads Accounts">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title"><em>Threads Accounts</em></h3>
+                        <p class="short-desc"><em>Premium Threads ready, aged profiles, instant access</em></p>
+                        <h5><em>Fresh Account</em></h5>
+                        <div class="product-rating">
+                            <div class="star-rating" data-product="threads"></div>
+                            <span class="rating-count" data-product="threads">(128 reviews)</span>
+                        </div>
+                        <div class="price-modern">
+                            <span class="current-price"><span class="price-unit">$</span>54</span>
+                            <span class="old-price">$70</span>
+                            <span class="discount-badge">-22%</span>
+                            <span class="qty-badge"><i class="fas fa-database"></i> 300 Accounts</span>
+                        </div>
+                        <div class="stock-info"><i class="fas fa-check-circle in-stock"></i> In Stock — <strong>245</strong> available</div>
+                        <div class="features-mega">
+                            <div class="feat"><i class="fas fa-check-circle"></i> Fresh Accounts</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Verified Accounts</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Secure Login</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Fast Delivery</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> High Quality</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> 24H Replacement</div>
+                        </div>
+                        <div class="btn-group-premium">
+                            <button class="btn-outline-details detailBtn" data-name="Threads Accounts"><i class="fas fa-eye"></i> Details</button>
+                            <button class="btn-gradient-cart addCartBtn" data-name="Threads Accounts"><i class="fas fa-shopping-cart"></i> <span class="cart-text">Add to Cart</span><span class="spinner"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           
+            <!-- =========================================
+            CARD 4: TWITTER X
+            ========================================= -->
+
+  <div class="col" data-product-id="threads">
+                <div class="attract-card">
+                    <div class="badge-extra badge-best"><i class="fas fa-star"></i> -15%</div>
+                    <div class="card-top-image">
+                        <img src=" ../Image/threads.png" alt="Threads Accounts">
+                    </div>
+                    <div class="card-content">
+                        <h3 class="card-title"><em>Threads Accounts</em></h3>
+                        <p class="short-desc"><em>Premium Threads ready, aged profiles, instant access</em></p>
+                        <div class="product-rating">
+                            <div class="star-rating" data-product="threads"></div>
+                            <span class="rating-count" data-product="threads">(128 reviews)</span>
+                        </div>
+                        <div class="price-modern">
+                            <span class="current-price"><span class="price-unit">$</span>90</span>
+                            <span class="old-price">$150</span>
+                            <span class="discount-badge">-31%</span>
+                            <span class="qty-badge"><i class="fas fa-database"></i> 500 Accounts</span>
+                        </div>
+                        <div class="stock-info"><i class="fas fa-check-circle in-stock"></i> In Stock — <strong>245</strong> available</div>
+                        <div class="features-mega">
+                            <div class="feat"><i class="fas fa-check-circle"></i> Fresh Accounts</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Verified Accounts</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Secure Login</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> Fast Delivery</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> High Quality</div>
+                            <div class="feat"><i class="fas fa-check-circle"></i> 24H Replacement</div>
+                        </div>
+                        <div class="btn-group-premium">
+                            <button class="btn-outline-details detailBtn" data-name="Threads Accounts"><i class="fas fa-eye"></i> Details</button>
+                            <button class="btn-gradient-cart addCartBtn" data-name="Threads Accounts"><i class="fas fa-shopping-cart"></i> <span class="cart-text">Add to Cart</span><span class="spinner"></span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+
+        </div>
+    </div>
+
+    <!-- =========================================
+    REVIEW MODAL
+    ========================================= -->
+    <div class="modal fade review-modal" id="reviewModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0 pt-4 px-4">
+                    <h5 class="modal-title fw-bold fs-3" id="reviewModalTitle" style="color: #023b45;">Product Reviews</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body px-4 pb-4">
+                    <div class="row g-4">
+                        <div class="col-md-5">
+                            <div class="rating-distribution">
+                                <h6 class="fw-bold mb-3" style="color:#023b45;"><i class="fas fa-chart-simple me-2"></i>Rating Breakdown</h6>
+                                <div id="distributionBars"></div>
+                                <div class="mt-3 text-center">
+                                    <span class="fw-bold fs-1" id="modalAvgRating" style="color:#023b45;">4.5</span>
+                                    <span class="text-muted"> / 5</span>
+                                    <div><span id="modalTotalReviews" class="fw-bold">247</span> global ratings</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <h6 class="fw-bold mb-3" style="color:#023b45;"><i class="fas fa-comment-dots me-2"></i>Real customer reviews</h6>
+                            <div id="reviewsListContainer" style="max-height: 380px; overflow-y: auto; padding-right: 5px;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-0 pb-4 px-4">
+                    <button type="button" class="btn btn-outline-secondary rounded-pill px-4" data-bs-dismiss="modal" style="border-color:#B7A08B; color:#023b45;">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================
+    DETAILS MODAL
+    ========================================= -->
+    <div class="modal fade detail-modal" id="productDetailModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0 pt-4 pb-1 px-4">
+                    <h5 class="modal-title fw-bold fs-2" id="modalProductTitle" style="color: #023b45;">Premium Package</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body px-4 pb-4">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="detail-image-wrap">
+                                <img id="detailProductImage" src="../Image/threads.png" alt="Product Detail">
+                            </div>
+                            <div class="mt-3 d-flex gap-3 flex-wrap">
+                                <span class="badge" style="background:#023b45; color:white; padding:0.4rem 1rem;"><i class="fas fa-star me-1"></i> <span id="detailRating">4.5</span> ★</span>
+                                <span class="badge" style="background:#B7A08B; color:#023b45; padding:0.4rem 1rem;"><i class="fas fa-comment me-1"></i> <span id="detailReviews">128</span> reviews</span>
+                                <span class="badge" style="background:#27ae60; color:white; padding:0.4rem 1rem;"><i class="fas fa-check-circle me-1"></i> In Stock</span>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h4 id="detailProductName" style="color:#023b45; font-family:'Playfair Display',serif; font-weight:700;">Product Name</h4>
+                            <p id="detailProductDesc" style="color:#023b45; opacity:0.8;">Premium quality accounts with full access and support.</p>
+                            <div class="price-modern mb-3">
+                                <span class="current-price" id="detailProductPrice" style="font-size:2rem;">$40</span>
+                                <span class="old-price" id="detailOldPrice" style="font-size:1.1rem;">$55</span>
+                                <span class="discount-badge" id="detailDiscount">-27%</span>
+                            </div>
+                            <div class="stock-info mb-2"><i class="fas fa-check-circle in-stock"></i> <span id="detailStock">245 available</span></div>
+                            <div id="detailFeaturesList">
+                                <div class="detail-feature-item"><i class="fas fa-check-circle"></i> Fresh and active accounts</div>
+                                <div class="detail-feature-item"><i class="fas fa-check-circle"></i> 24 Hours Replacement Guaranteed</div>
+                                <div class="detail-feature-item"><i class="fas fa-check-circle"></i> Manual quality checking</div>
+                                <div class="detail-feature-item"><i class="fas fa-check-circle"></i> Fast online delivery</div>
+                                <div class="detail-feature-item"><i class="fas fa-check-circle"></i> Secure account information</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert mt-3 rounded-4" style="background:#B7A08B25; border:none; color:#023b45;">
+                        <i class="fas fa-shield-alt me-2"></i> 100% secure checkout &amp; instant details delivery
+                    </div>
+                </div>
+                <div class="modal-footer border-0 pb-4 px-4">
+                    <button type="button" class="btn btn-outline-secondary rounded-pill px-4" data-bs-dismiss="modal" style="border-color:#B7A08B; color:#023b45;">Close</button>
+                    <button type="button" class="btn rounded-pill px-4" id="modalAddToCartBtn" style="background: linear-gradient(95deg,#023b45,#1f6e7a); border:none; color:white;"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =========================================================
+    SCRIPTS
+    ========================================================= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+    </script>
+    <script>
+        (function() {
+            'use strict';
+
+            AOS.init({
+                duration: 700,
+                once: true,
+                offset: 20,
+                easing: 'ease-out-cubic',
+                mirror: false,
+            });
+
+            // ============================
+            // PRODUCT DATA — Threads only
+            // ============================
+            const productData = {
+                gmail: {
+                    name: 'Threads Accounts',
+                    desc: 'Premium Threads ready, aged profiles with full recovery access and instant delivery.',
+                    price: 40,
+                    oldPrice: 55,
+                    discount: '-27%',
+                    stock: 245,
+                    avg: 4.5,
+                    total: 128,
+                    distribution: { 5: 60, 4: 25, 3: 10, 2: 3, 1: 2 },
+                    reviews: [
+                        { name: 'Alex J.', country: 'USA', text: 'Perfect Threads accounts, very fast delivery!', rating: 5, date: '2024-12-15' },
+                        { name: 'Maria S.', country: 'UK', text: 'Aged profiles work great for my business.', rating: 4, date: '2024-12-10' },
+                        { name: 'Tom R.', country: 'Canada', text: 'Good quality, support was helpful.', rating: 5, date: '2024-12-05' },
+                        { name: 'Linda K.', country: 'Australia', text: 'Highly recommend these accounts!', rating: 5, date: '2024-11-28' },
+                        { name: 'James M.', country: 'USA', text: 'Very reliable, will order again.', rating: 4, date: '2024-11-20' }
+                    ]
+                }
+            };
+
+            // ============================
+            // STAR RATING
+            // ============================
+            const ratingContainers = document.querySelectorAll('.star-rating');
+            ratingContainers.forEach(container => {
+                const product = container.dataset.product;
+                const data = productData[product];
+                if (!data) return;
+                const avg = data.avg;
+                const fullStars = Math.floor(avg);
+                const halfStar = avg % 1 >= 0.5 ? 1 : 0;
+                const emptyStars = 5 - fullStars - halfStar;
+
+                let html = '';
+                for (let i = 0; i < fullStars; i++) {
+                    html += `<i class="fas fa-star active-star" data-star="${i+1}"></i>`;
+                }
+                if (halfStar) {
+                    html += `<i class="fas fa-star-half-alt active-star" data-star="${fullStars+1}"></i>`;
+                }
+                for (let i = 0; i < emptyStars; i++) {
+                    const starNum = fullStars + halfStar + i + 1;
+                    html += `<i class="fas fa-star" data-star="${starNum}"></i>`;
+                }
+                container.innerHTML = html;
+
+                // Star click handler
+                const stars = container.querySelectorAll('i');
+                let selectedRating = 0;
+
+                stars.forEach((star, idx) => {
+                    star.style.cursor = 'pointer';
+                    star.addEventListener('mouseenter', function() {
+                        const index = parseInt(this.dataset.star) || (idx + 1);
+                        stars.forEach((s, i) => {
+                            const sIdx = parseInt(s.dataset.star) || (i + 1);
+                            if (sIdx <= index) {
+                                s.classList.add('hover-star');
+                            } else {
+                                s.classList.remove('hover-star');
+                            }
+                        });
+                    });
+                    star.addEventListener('mouseleave', function() {
+                        stars.forEach(s => s.classList.remove('hover-star'));
+                    });
+                    star.addEventListener('click', function(e) {
+                        e.stopPropagation();
+                        const index = parseInt(this.dataset.star) || (idx + 1);
+                        selectedRating = index;
+                        stars.forEach((s, i) => {
+                            const sIdx = parseInt(s.dataset.star) || (i + 1);
+                            if (sIdx <= index) {
+                                s.classList.add('active-star');
+                                s.classList.remove('fas');
+                                s.classList.add('fas');
+                            } else {
+                                s.classList.remove('active-star');
+                            }
+                        });
+                        // Update all stars to reflect the rating
+                        for (let i = 0; i < stars.length; i++) {
+                            const sIdx = parseInt(stars[i].dataset.star) || (i + 1);
+                            if (sIdx <= index) {
+                                stars[i].className = 'fas fa-star active-star';
+                            } else {
+                                stars[i].className = 'fas fa-star';
+                            }
+                        }
+                        showToast('⭐ You rated this product ' + index + ' stars! Thank you.');
+                    });
+                });
+            });
+
+            // ============================
+            // TOAST NOTIFICATION
+            // ============================
+            function showToast(message, type = 'success') {
+                const existing = document.querySelector('.toast-notification');
+                if (existing) existing.remove();
+
+                const div = document.createElement('div');
+                div.className = 'toast-notification ' + type;
+                div.innerHTML = `
+                    <i class="fas ${type === 'success' ? 'fa-check-circle' : 'fa-exclamation-circle'}"></i>
+                    <span>${message}</span>
+                `;
+                document.body.appendChild(div);
+
+                setTimeout(() => {
+                    div.style.opacity = '0';
+                    div.style.transform = 'translateX(50px)';
+                    div.style.transition = 'all 0.3s ease';
+                    setTimeout(() => div.remove(), 300);
+                }, 3000);
+            }
+
+            // ============================
+            // ADD TO CART
+            // ============================
+            // Inline add to cart — visual feedback only.
+            // Actual cart addition + counter update is handled by cart.js (event delegation).
+            document.querySelectorAll('.addCartBtn').forEach(function(btn) {
+                btn.addEventListener('click', function(e) {
+                    var name = this.dataset.name;
+                    if (!name) return;
+                    createRipple(e, this);
+                    // Defer DOM mutation so cart.js event delegation
+                    // can resolve e.target.closest('.addCartBtn') before
+                    // the child nodes are detached.
+                    requestAnimationFrame(function() {
+                        btn.classList.add('success');
+                        btn.innerHTML = '<i class="fas fa-check"></i> <span class="cart-text">Added!</span>';
+                        showToast('🛒 ' + name + ' added to cart!');
+                    });
+                    setTimeout(function() {
+                        btn.classList.remove('success');
+                        btn.innerHTML = '<i class="fas fa-shopping-cart"></i> <span class="cart-text">Add to Cart</span><span class="spinner"></span>';
+                    }, 1500);
+                });
+            });
+
+            // ============================
+            // DETAILS MODAL
+            // ============================
+            const detailModal = new bootstrap.Modal(document.getElementById('productDetailModal'));
+            const modalProductName = document.getElementById('detailProductName');
+            const modalProductDesc = document.getElementById('detailProductDesc');
+            const modalProductPrice = document.getElementById('detailProductPrice');
+            const modalOldPrice = document.getElementById('detailOldPrice');
+            const modalDiscount = document.getElementById('detailDiscount');
+            const modalStock = document.getElementById('detailStock');
+            const modalRating = document.getElementById('detailRating');
+            const modalReviews = document.getElementById('detailReviews');
+            const modalProductTitle = document.getElementById('modalProductTitle');
+
+            document.querySelectorAll('.detailBtn').forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Read data directly from the card DOM
+                    var card = this.closest('.attract-card') || this.closest('.col');
+                    if (!card) { detailModal.show(); return; }
+
+                    var titleEl = card.querySelector('.card-title');
+                    var descEl = card.querySelector('.short-desc');
+                    var priceEl = card.querySelector('.current-price');
+                    var oldPriceEl = card.querySelector('.old-price');
+                    var discountEl = card.querySelector('.discount-badge');
+                    var qtyEl = card.querySelector('.qty-badge');
+                    var stockEl = card.querySelector('.stock-info');
+                    var featuresEl = card.querySelector('.features-mega');
+
+                    if (titleEl) modalProductName.textContent = titleEl.textContent.trim();
+                    if (descEl) modalProductDesc.textContent = descEl.textContent.trim();
+                    if (priceEl) modalProductPrice.textContent = priceEl.textContent.trim();
+                    if (oldPriceEl) modalOldPrice.textContent = oldPriceEl.textContent.trim();
+                    if (discountEl) modalDiscount.textContent = discountEl.textContent.trim();
+                    if (qtyEl) modalProductTitle.textContent = (titleEl ? titleEl.textContent.trim() : 'Package') + ' — ' + qtyEl.textContent.trim();
+                    if (stockEl) modalStock.textContent = stockEl.textContent.trim();
+
+                    // Copy features from card to modal
+                    var detailFeatures = document.getElementById('detailFeaturesList');
+                    if (detailFeatures && featuresEl) {
+                        var featItems = featuresEl.querySelectorAll('.feat');
+                        var html = '';
+                        featItems.forEach(function(f) {
+                            html += '<div class="detail-feature-item"><i class="fas fa-check-circle"></i> ' + f.textContent.trim() + '</div>';
+                        });
+                        if (html) detailFeatures.innerHTML = html;
+                    }
+
+                    // Use the Threads data for rating/reviews (not shown on card)
+                    var gdata = productData['threads'];
+                    if (gdata) {
+                        modalRating.textContent = gdata.avg.toFixed(1);
+                        modalReviews.textContent = gdata.total;
+                    }
+
+                    // Update detail image
+                    var detailImage = document.getElementById('detailProductImage');
+                    if (detailImage) {
+                        detailImage.src = '../Image/threads.png';
+                    }
+
+                    detailModal.show();
+                });
+            });
+
+            // Modal Add to Cart — calls server, updates counter
+            document.getElementById('modalAddToCartBtn').addEventListener('click', function() {
+                const name = document.getElementById('detailProductName')?.textContent || '';
+                const priceText = document.getElementById('detailProductPrice')?.textContent || '0';
+                const productPrice = parseFloat(priceText.replace(/[^0-9.]/g, ''));
+                if (!name || !productPrice || productPrice <= 0) { showToast('Invalid product data.', 'error'); return; }
+                const productId = 'modal_' + name.toLowerCase().replace(/\s+/g, '_');
+                fetch('/Gmail Website/ajax/add_to_cart.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: 'id=' + encodeURIComponent(productId) + '&name=' + encodeURIComponent(name) + '&price=' + encodeURIComponent(productPrice)
+                })
+                .then(function(r) { return r.json(); })
+                .then(function(data) {
+                    if (data.success) {
+                        showToast(data.message);
+                        if (data.cart_count !== undefined) {
+                            document.querySelectorAll('.cart-counter').forEach(function(c) {
+                                c.textContent = data.cart_count;
+                                if (data.cart_count > 0) c.classList.add('visible');
+                                else c.classList.remove('visible');
+                            });
+                        }
+                        var modal = bootstrap.Modal.getInstance(document.getElementById('productDetailModal'));
+                        if (modal) modal.hide();
+                    } else { showToast(data.message || 'Error adding product.', 'error'); }
+                })
+                .catch(function() { showToast('Network error. Please try again.', 'error'); });
+            });
+
+            // ============================
+            // REVIEW MODAL
+            // ============================
+            const reviewModal = new bootstrap.Modal(document.getElementById('reviewModal'));
+            const distributionBars = document.getElementById('distributionBars');
+            const reviewsListContainer = document.getElementById('reviewsListContainer');
+            const modalAvgRating = document.getElementById('modalAvgRating');
+            const modalTotalReviews = document.getElementById('modalTotalReviews');
+            const reviewModalTitle = document.getElementById('reviewModalTitle');
+
+            document.querySelectorAll('.rating-count').forEach(count => {
+                count.addEventListener('click', function() {
+                    const product = this.dataset.product;
+                    const data = productData[product];
+                    if (!data) return;
+
+                    const productName = data.name;
+                    reviewModalTitle.textContent = productName + ' Reviews';
+                    modalAvgRating.textContent = data.avg.toFixed(1);
+                    modalTotalReviews.textContent = data.total;
+
+                    const dist = data.distribution;
+                    const max = Math.max(...Object.values(dist));
+                    let barsHTML = '';
+                    for (let i = 5; i >= 1; i--) {
+                        const countVal = dist[i] || 0;
+                        const percent = max > 0 ? (countVal / max * 100) : 0;
+                        barsHTML += `
+                            <div class="distro-bar">
+                                <span class="distro-label">${i} ★</span>
+                                <div class="bar-bg"><div class="bar-fill" style="width:${percent}%;"></div></div>
+                                <span class="distro-percent">${countVal}</span>
+                            </div>
+                        `;
+                    }
+                    distributionBars.innerHTML = barsHTML;
+
+                    const reviews = data.reviews || [];
+                    let reviewsHTML = '';
+                    reviews.forEach(r => {
+                        const initials = r.name.split(' ').map(n => n[0]).join('');
+                        const dateObj = new Date(r.date);
+                        const formattedDate = dateObj.toLocaleDateString('en-US', { month: 'short',
+                            day: 'numeric', year: 'numeric' });
+                        reviewsHTML += `
+                            <div class="review-card-item d-flex align-items-start gap-3">
+                                <div class="avatar-initial">${initials}</div>
+                                <div style="flex:1;">
+                                    <div class="d-flex flex-wrap align-items-center gap-2">
+                                        <span class="fw-bold" style="color:#023b45;">${r.name}</span>
+                                        <span style="color:#023b45; opacity:0.5; font-size:0.7rem;">${r.country}</span>
+                                        <span style="color:#023b45; opacity:0.4; font-size:0.7rem; margin-left:auto;">${formattedDate}</span>
+                                    </div>
+                                    <div class="text-warning mb-1">${'★'.repeat(r.rating)}${'☆'.repeat(5 - r.rating)}</div>
+                                    <div style="color:#023b45; opacity:0.8; font-size:0.9rem;">${r.text}</div>
+                                </div>
+                            </div>
+                        `;
+                    });
+                    reviewsListContainer.innerHTML = reviewsHTML ||
+                        '<p class="text-muted">No reviews yet.</p>';
+
+                    reviewModal.show();
+                });
+            });
+
+            // ============================
+            // RIPPLE EFFECT
+            // ============================
+            function createRipple(event, element) {
+                const ripple = document.createElement('span');
+                ripple.className = 'ripple';
+                const rect = element.getBoundingClientRect();
+                const size = Math.max(rect.width, rect.height);
+                ripple.style.width = ripple.style.height = size + 'px';
+                ripple.style.left = (event.clientX - rect.left - size / 2) + 'px';
+                ripple.style.top = (event.clientY - rect.top - size / 2) + 'px';
+                element.appendChild(ripple);
+                setTimeout(() => ripple.remove(), 500);
+            }
+
+            console.log('Premium product cards loaded successfully.');
+        })();
+    </script>
+
+<!-- product cards end -->
+
+<!-- =========================================================
+   WHY CHOOSE OUR THREADS ACCOUNTS
+   ========================================================= -->
+<section class="threads-why-master-nexus section-padding" id="threadsWhyChoose" style="background: rgba(255,255,255,0.12);">
+    <div class="container">
+        <div class="threads-why-header text-center mb-5" data-aos="fade-up">
+            <span class="threads-why-badge" style="display:inline-flex; align-items:center; gap:8px; background:rgba(2,59,69,0.12); color:#023b45; font-weight:700; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:60px; margin-bottom:16px; border:0.5px solid rgba(2,59,69,0.15);">
+                <i class="fas fa-heart me-2"></i> Why Choose Us
+            </span>
+            <h2 class="threads-why-title" style="font-size:clamp(2rem,4vw,2.8rem); font-weight:800; line-height:1.15; color:#023b45; font-family:'Playfair Display',serif;">
+                Why Our <span style="position:relative; display:inline-block; color:#023b45;">Threads<span style="position:absolute; bottom:2px; left:0; width:100%; height:4px; background:rgba(2,59,69,0.2); border-radius:4px;"></span></span> Accounts?
+            </h2>
+            <p style="color:rgba(2,59,69,0.7); max-width:550px; margin:0 auto;">The advantages of choosing our premium Threads services</p>
+        </div>
+        <div class="threads-why-grid row g-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="100">
+                <div class="threads-why-card" style="background:white; border-radius:20px; padding:1.8rem 1.2rem; text-align:center; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04); box-shadow:0 4px 15px rgba(0,0,0,0.04); height:100%;">
+                    <div style="font-size:2.5rem; color:#023b45; margin-bottom:10px;">⭐</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.05rem;">High Quality Accounts</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">All accounts manually tested and verified</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="150">
+                <div class="threads-why-card" style="background:white; border-radius:20px; padding:1.8rem 1.2rem; text-align:center; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04); box-shadow:0 4px 15px rgba(0,0,0,0.04); height:100%;">
+                    <div style="font-size:2.5rem; color:#023b45; margin-bottom:10px;">📞</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.05rem;">Phone Verified</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">PVA accounts with real phone verification</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="200">
+                <div class="threads-why-card" style="background:white; border-radius:20px; padding:1.8rem 1.2rem; text-align:center; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04); box-shadow:0 4px 15px rgba(0,0,0,0.04); height:100%;">
+                    <div style="font-size:2.5rem; color:#023b45; margin-bottom:10px;">⚡</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.05rem;">Instant Delivery</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">Receive accounts within minutes of ordering</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="250">
+                <div class="threads-why-card" style="background:white; border-radius:20px; padding:1.8rem 1.2rem; text-align:center; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04); box-shadow:0 4px 15px rgba(0,0,0,0.04); height:100%;">
+                    <div style="font-size:2.5rem; color:#023b45; margin-bottom:10px;">🔒</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.05rem;">Secure Access</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">Bank-level security for all accounts</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="300">
+                <div class="threads-why-card" style="background:white; border-radius:20px; padding:1.8rem 1.2rem; text-align:center; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04); box-shadow:0 4px 15px rgba(0,0,0,0.04); height:100%;">
+                    <div style="font-size:2.5rem; color:#023b45; margin-bottom:10px;">📦</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.05rem;">Bulk Orders</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">Volume discounts for large orders</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="350">
+                <div class="threads-why-card" style="background:white; border-radius:20px; padding:1.8rem 1.2rem; text-align:center; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04); box-shadow:0 4px 15px rgba(0,0,0,0.04); height:100%;">
+                    <div style="font-size:2.5rem; color:#023b45; margin-bottom:10px;">🔄</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.05rem;">Fast Replacement</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">24-hour replacement guarantee</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="zoom-in" data-aos-delay="400">
+                <div class="threads-why-card" style="background:white; border-radius:20px; padding:1.8rem 1.2rem; text-align:center; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04); box-shadow:0 4px 15px rgba(0,0,0,0.04); height:100%;">
+                    <div style="font-size:2.5rem; color:#023b45; margin-bottom:10px;">💬</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.05rem;">Premium Support</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">24/7 expert customer service</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+   ACCOUNT FEATURES SECTION
+   ========================================================= -->
+<section class="threads-features-master-nexus section-padding" id="threadsFeatures" style="background: #B7A08B;">
+    <div class="container">
+        <div class="threads-features-header text-center mb-5" data-aos="fade-up">
+            <span class="threads-features-badge" style="display:inline-flex; align-items:center; gap:8px; background:rgba(2,59,69,0.12); color:#023b45; font-weight:700; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:60px; margin-bottom:16px; border:0.5px solid rgba(2,59,69,0.15);">
+                <i class="fas fa-list-check me-2"></i> Account Features
+            </span>
+            <h2 class="threads-features-title" style="font-size:clamp(2rem,4vw,2.8rem); font-weight:800; line-height:1.15; color:#023b45; font-family:'Playfair Display',serif;">
+                Premium <span style="position:relative; display:inline-block; color:#023b45;">Threads<span style="position:absolute; bottom:2px; left:0; width:100%; height:4px; background:rgba(2,59,69,0.2); border-radius:4px;"></span></span> Features
+            </h2>
+            <p style="color:rgba(2,59,69,0.7); max-width:550px; margin:0 auto;">What makes our Threads accounts exceptional</p>
+        </div>
+        <div class="threads-features-grid row g-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="flip-up" data-aos-delay="100">
+                <div class="threads-feature-item" style="background:white; border-radius:16px; padding:1rem 1.2rem; display:flex; align-items:center; gap:12px; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04);">
+                    <i class="fas fa-user-plus" style="font-size:1.2rem; color:#023b45;"></i>
+                    <span style="font-weight:600; color:#023b45; font-size:0.9rem;">Fresh Accounts</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="flip-up" data-aos-delay="150">
+                <div class="threads-feature-item" style="background:white; border-radius:16px; padding:1rem 1.2rem; display:flex; align-items:center; gap:12px; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04);">
+                    <i class="fas fa-clock" style="font-size:1.2rem; color:#023b45;"></i>
+                    <span style="font-weight:600; color:#023b45; font-size:0.9rem;">Aged Accounts</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="flip-up" data-aos-delay="200">
+                <div class="threads-feature-item" style="background:white; border-radius:16px; padding:1rem 1.2rem; display:flex; align-items:center; gap:12px; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04);">
+                    <i class="fas fa-key" style="font-size:1.2rem; color:#023b45;"></i>
+                    <span style="font-weight:600; color:#023b45; font-size:0.9rem;">Recovery Information</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="flip-up" data-aos-delay="250">
+                <div class="threads-feature-item" style="background:white; border-radius:16px; padding:1rem 1.2rem; display:flex; align-items:center; gap:12px; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04);">
+                    <i class="fas fa-lock" style="font-size:1.2rem; color:#023b45;"></i>
+                    <span style="font-weight:600; color:#023b45; font-size:0.9rem;">Secure Login</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="flip-up" data-aos-delay="300">
+                <div class="threads-feature-item" style="background:white; border-radius:16px; padding:1rem 1.2rem; display:flex; align-items:center; gap:12px; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04);">
+                    <i class="fas fa-chart-line" style="font-size:1.2rem; color:#023b45;"></i>
+                    <span style="font-weight:600; color:#023b45; font-size:0.9rem;">High Success Rate</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="flip-up" data-aos-delay="350">
+                <div class="threads-feature-item" style="background:white; border-radius:16px; padding:1rem 1.2rem; display:flex; align-items:center; gap:12px; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04);">
+                    <i class="fas fa-globe" style="font-size:1.2rem; color:#023b45;"></i>
+                    <span style="font-weight:600; color:#023b45; font-size:0.9rem;">Country Options</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="flip-up" data-aos-delay="400">
+                <div class="threads-feature-item" style="background:white; border-radius:16px; padding:1rem 1.2rem; display:flex; align-items:center; gap:12px; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04);">
+                    <i class="fas fa-briefcase" style="font-size:1.2rem; color:#023b45;"></i>
+                    <span style="font-weight:600; color:#023b45; font-size:0.9rem;">Business Ready</span>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3" data-aos="flip-up" data-aos-delay="450">
+                <div class="threads-feature-item" style="background:white; border-radius:16px; padding:1rem 1.2rem; display:flex; align-items:center; gap:12px; transition:all 0.3s; border:1px solid rgba(2,59,69,0.04);">
+                    <i class="fas fa-boxes" style="font-size:1.2rem; color:#023b45;"></i>
+                    <span style="font-weight:600; color:#023b45; font-size:0.9rem;">Bulk Availability</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+   ORDER PROCESS
+   ========================================================= -->
+<section class="threads-order-master-nexus section-padding" id="threadsOrderProcess" style="background: rgba(255,255,255,0.12);">
+    <div class="container">
+        <div class="threads-order-header text-center mb-5" data-aos="fade-up">
+            <span class="threads-order-badge" style="display:inline-flex; align-items:center; gap:8px; background:rgba(2,59,69,0.12); color:#023b45; font-weight:700; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:60px; margin-bottom:16px; border:0.5px solid rgba(2,59,69,0.15);">
+                <i class="fas fa-route me-2"></i> Order Process
+            </span>
+            <h2 class="threads-order-title" style="font-size:clamp(2rem,4vw,2.8rem); font-weight:800; line-height:1.15; color:#023b45; font-family:'Playfair Display',serif;">
+                Simple <span style="position:relative; display:inline-block; color:#023b45;">4-Step<span style="position:absolute; bottom:2px; left:0; width:100%; height:4px; background:rgba(2,59,69,0.2); border-radius:4px;"></span></span> Process
+            </h2>
+            <p style="color:rgba(2,59,69,0.7); max-width:550px; margin:0 auto;">Order your Threads accounts in minutes</p>
+        </div>
+        <div class="threads-order-steps row g-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-6 col-lg-3" data-aos="fade-right" data-aos-delay="100">
+                <div class="threads-order-step" style="background:white; border-radius:20px; padding:1.8rem; text-align:center; box-shadow:0 8px 25px rgba(0,0,0,0.05); transition:all 0.3s; height:100%;">
+                    <div style="width:60px; height:60px; background:#023b45; border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 12px; font-size:1.6rem; font-weight:800; color:white;">1</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.1rem;">Select Threads Package</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">Choose your preferred Threads account type</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-right" data-aos-delay="150">
+                <div class="threads-order-step" style="background:white; border-radius:20px; padding:1.8rem; text-align:center; box-shadow:0 8px 25px rgba(0,0,0,0.05); transition:all 0.3s; height:100%;">
+                    <div style="width:60px; height:60px; background:#023b45; border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 12px; font-size:1.6rem; font-weight:800; color:white;">2</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.1rem;">Choose Quantity</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">Select the number of accounts you need</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-right" data-aos-delay="200">
+                <div class="threads-order-step" style="background:white; border-radius:20px; padding:1.8rem; text-align:center; box-shadow:0 8px 25px rgba(0,0,0,0.05); transition:all 0.3s; height:100%;">
+                    <div style="width:60px; height:60px; background:#023b45; border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 12px; font-size:1.6rem; font-weight:800; color:white;">3</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.1rem;">Complete Order</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">Secure checkout via our payment partners</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3" data-aos="fade-right" data-aos-delay="250">
+                <div class="threads-order-step" style="background:white; border-radius:20px; padding:1.8rem; text-align:center; box-shadow:0 8px 25px rgba(0,0,0,0.05); transition:all 0.3s; height:100%;">
+                    <div style="width:60px; height:60px; background:#023b45; border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 12px; font-size:1.6rem; font-weight:800; color:white;">4</div>
+                    <h4 style="color:#023b45; font-weight:700; font-size:1.1rem;">Receive Delivery</h4>
+                    <p style="color:rgba(2,59,69,0.6); font-size:0.85rem;">Get your Threads accounts instantly</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+   ACCOUNT QUALITY DASHBOARD
+   ========================================================= -->
+<section class="threads-dashboard-master-nexus section-padding" id="threadsQualityDashboard" style="background: #B7A08B;">
+    <div class="container">
+        <div class="threads-dashboard-header text-center mb-5" data-aos="fade-up">
+            <span class="threads-dashboard-badge" style="display:inline-flex; align-items:center; gap:8px; background:rgba(2,59,69,0.12); color:#023b45; font-weight:700; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:60px; margin-bottom:16px; border:0.5px solid rgba(2,59,69,0.15);">
+                <i class="fas fa-chart-simple me-2"></i> Quality Dashboard
+            </span>
+            <h2 class="threads-dashboard-title" style="font-size:clamp(2rem,4vw,2.8rem); font-weight:800; line-height:1.15; color:#023b45; font-family:'Playfair Display',serif;">
+                Account <span style="position:relative; display:inline-block; color:#023b45;">Quality<span style="position:absolute; bottom:2px; left:0; width:100%; height:4px; background:rgba(2,59,69,0.2); border-radius:4px;"></span></span> Metrics
+            </h2>
+            <p style="color:rgba(2,59,69,0.7); max-width:550px; margin:0 auto;">Our commitment to quality and excellence</p>
+        </div>
+        <div class="threads-dashboard-grid row g-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="threads-dashboard-card" style="background:white; border-radius:20px; padding:1.8rem; box-shadow:0 8px 25px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-weight:600; color:#023b45;">Quality Score</span>
+                        <span style="font-weight:800; color:#023b45; font-size:1.2rem;">98%</span>
+                    </div>
+                    <div style="height:8px; background:rgba(2,59,69,0.1); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:98%; background:linear-gradient(90deg,#2ecc71,#27ae60); border-radius:10px; transition:width 1.5s ease;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                <div class="threads-dashboard-card" style="background:white; border-radius:20px; padding:1.8rem; box-shadow:0 8px 25px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-weight:600; color:#023b45;">Verification Rate</span>
+                        <span style="font-weight:800; color:#023b45; font-size:1.2rem;">95%</span>
+                    </div>
+                    <div style="height:8px; background:rgba(2,59,69,0.1); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:95%; background:linear-gradient(90deg,#3498db,#2980b9); border-radius:10px; transition:width 1.5s ease;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                <div class="threads-dashboard-card" style="background:white; border-radius:20px; padding:1.8rem; box-shadow:0 8px 25px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-weight:600; color:#023b45;">Delivery Success</span>
+                        <span style="font-weight:800; color:#023b45; font-size:1.2rem;">99.8%</span>
+                    </div>
+                    <div style="height:8px; background:rgba(2,59,69,0.1); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:99.8%; background:linear-gradient(90deg,#9b59b6,#8e44ad); border-radius:10px; transition:width 1.5s ease;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="250">
+                <div class="threads-dashboard-card" style="background:white; border-radius:20px; padding:1.8rem; box-shadow:0 8px 25px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-weight:600; color:#023b45;">Customer Satisfaction</span>
+                        <span style="font-weight:800; color:#023b45; font-size:1.2rem;">99%</span>
+                    </div>
+                    <div style="height:8px; background:rgba(2,59,69,0.1); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:99%; background:linear-gradient(90deg,#f1c40f,#f39c12); border-radius:10px; transition:width 1.5s ease;"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="threads-dashboard-card" style="background:white; border-radius:20px; padding:1.8rem; box-shadow:0 8px 25px rgba(0,0,0,0.05);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                        <span style="font-weight:600; color:#023b45;">Support Performance</span>
+                        <span style="font-weight:800; color:#023b45; font-size:1.2rem;">97%</span>
+                    </div>
+                    <div style="height:8px; background:rgba(2,59,69,0.1); border-radius:10px; overflow:hidden;">
+                        <div style="height:100%; width:97%; background:linear-gradient(90deg,#1abc9c,#16a085); border-radius:10px; transition:width 1.5s ease;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+   CUSTOMER REVIEWS SECTION
+   ========================================================= -->
+<section class="threads-reviews-master-nexus section-padding" id="threadsReviews" style="background: rgba(255,255,255,0.12);">
+    <div class="container">
+        <div class="threads-reviews-header text-center mb-5" data-aos="fade-up">
+            <span class="threads-reviews-badge" style="display:inline-flex; align-items:center; gap:8px; background:rgba(2,59,69,0.12); color:#023b45; font-weight:700; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:60px; margin-bottom:16px; border:0.5px solid rgba(2,59,69,0.15);">
+                <i class="fas fa-quote-left me-2"></i> Customer Reviews
+            </span>
+            <h2 class="threads-reviews-title" style="font-size:clamp(2rem,4vw,2.8rem); font-weight:800; line-height:1.15; color:#023b45; font-family:'Playfair Display',serif;">
+                What Our <span style="position:relative; display:inline-block; color:#023b45;">Customers<span style="position:absolute; bottom:2px; left:0; width:100%; height:4px; background:rgba(2,59,69,0.2); border-radius:4px;"></span></span> Say
+            </h2>
+            <p style="color:rgba(2,59,69,0.7); max-width:550px; margin:0 auto;">Real reviews from real customers</p>
+        </div>
+        <div class="threads-reviews-grid row g-4" data-aos="fade-up" data-aos-delay="100">
+            <!-- Review 1-10 -->
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">JD</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">John Doe</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">United States</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"Best Threads accounts I've ever purchased. Quality outstanding and delivery was instant."</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="150">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">SM</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">Sarah Miller</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">United Kingdom</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"Great service! The aged Threads accounts work perfectly for my business needs."</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">MK</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">Michael K.</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">Canada</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"Excellent quality Threads accounts. The support team is very responsive and helpful."</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="250">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">AR</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">Anna Rodriguez</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">Spain</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"Fast delivery and premium quality accounts. Perfect for my marketing campaigns."</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">DW</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">David Wilson</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">Australia</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"Highly recommended! The aged Threads accounts have great reputation and work perfectly."</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="350">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">LC</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">Lisa Chen</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">Singapore</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"Great value for money. The accounts are high quality and service is professional."</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="400">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">RJ</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">Robert James</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">United States</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"The best Threads account provider I've found. Quality is consistently excellent."</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="450">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">EP</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">Emily Parker</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">United Kingdom</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"Amazing service! They helped me with a bulk order and everything went smoothly."</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="500">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">CG</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">Carlos Garcia</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">Mexico</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"Excellent quality Threads accounts. Will definitely order again for my business."</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="550">
+                <div class="threads-review-card" style="background:white; border-radius:20px; padding:1.5rem; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="display:flex; align-items:center; gap:12px; margin-bottom:10px;">
+                        <div style="width:44px; height:44px; border-radius:50%; background:#023b45; color:white; display:flex; align-items:center; justify-content:center; font-weight:700;">AK</div>
+                        <div>
+                            <div style="font-weight:700; color:#023b45;">Aisha Khan</div>
+                            <div style="font-size:0.7rem; color:rgba(2,59,69,0.4);">UAE</div>
+                        </div>
+                    </div>
+                    <div style="color:#f5b042; font-size:0.8rem; letter-spacing:1px; margin-bottom:8px;">★★★★★</div>
+                    <p style="font-size:0.9rem; color:rgba(2,59,69,0.75); line-height:1.6;">"Great Threads accounts for business use. The support team is very professional."</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+   FAQ SECTION
+   ========================================================= -->
+
+<!-- =========================================================
+   TRUST & SECURITY SECTION
+   ========================================================= -->
+<section class="threads-trust-master-nexus section-padding" id="threadsTrustSecurity" style="background: rgba(255,255,255,0.12);">
+    <div class="container">
+        <div class="threads-trust-header text-center mb-5" data-aos="fade-up">
+            <span class="threads-trust-badge" style="display:inline-flex; align-items:center; gap:8px; background:rgba(2,59,69,0.12); color:#023b45; font-weight:700; font-size:0.75rem; letter-spacing:1.5px; text-transform:uppercase; padding:6px 16px; border-radius:60px; margin-bottom:16px; border:0.5px solid rgba(2,59,69,0.15);">
+                <i class="fas fa-shield-alt me-2"></i> Trust & Security
+            </span>
+            <h2 class="threads-trust-title" style="font-size:clamp(2rem,4vw,2.8rem); font-weight:800; line-height:1.15; color:#023b45; font-family:'Playfair Display',serif;">
+                Your <span style="position:relative; display:inline-block; color:#023b45;">Security<span style="position:absolute; bottom:2px; left:0; width:100%; height:4px; background:rgba(2,59,69,0.2); border-radius:4px;"></span></span> Matters
+            </h2>
+            <p style="color:rgba(2,59,69,0.7); max-width:550px; margin:0 auto;">We prioritize your security and trust</p>
+        </div>
+        <div class="threads-trust-grid row g-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-6 col-lg-2" data-aos="zoom-in" data-aos-delay="100">
+                <div class="threads-trust-card" style="background:white; border-radius:16px; padding:1.2rem; text-align:center; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="font-size:2.2rem; color:#023b45; margin-bottom:6px;">🔒</div>
+                    <div style="font-weight:700; color:#023b45; font-size:0.85rem;">Secure Transactions</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2" data-aos="zoom-in" data-aos-delay="150">
+                <div class="threads-trust-card" style="background:white; border-radius:16px; padding:1.2rem; text-align:center; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="font-size:2.2rem; color:#023b45; margin-bottom:6px;">✅</div>
+                    <div style="font-weight:700; color:#023b45; font-size:0.85rem;">Verified Quality</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
+                <div class="threads-trust-card" style="background:white; border-radius:16px; padding:1.2rem; text-align:center; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="font-size:2.2rem; color:#023b45; margin-bottom:6px;">🛡️</div>
+                    <div style="font-weight:700; color:#023b45; font-size:0.85rem;">Customer Protection</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2" data-aos="zoom-in" data-aos-delay="250">
+                <div class="threads-trust-card" style="background:white; border-radius:16px; padding:1.2rem; text-align:center; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="font-size:2.2rem; color:#023b45; margin-bottom:6px;">⭐</div>
+                    <div style="font-weight:700; color:#023b45; font-size:0.85rem;">Trusted Service</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-2" data-aos="zoom-in" data-aos-delay="300">
+                <div class="threads-trust-card" style="background:white; border-radius:16px; padding:1.2rem; text-align:center; box-shadow:0 4px 15px rgba(0,0,0,0.04); transition:all 0.3s; height:100%;">
+                    <div style="font-size:2.2rem; color:#023b45; margin-bottom:6px;">⚡</div>
+                    <div style="font-weight:700; color:#023b45; font-size:0.85rem;">Fast Delivery</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+   FINAL CTA SECTION
+   ========================================================= -->
+<section class="threads-cta-master-nexus section-padding" id="threadsFinalCTA" style="background: #023b45;">
+    <div class="container">
+        <div class="threads-cta-wrapper text-center" data-aos="zoom-in" data-aos-duration="800">
+            <div style="max-width:700px; margin:0 auto;">
+                <h2 style="font-size:clamp(2.2rem,4.5vw,3.2rem); font-weight:800; color:#FEFAF7; font-family:'Playfair Display',serif; line-height:1.1; margin-bottom:16px;">
+                    Ready To Order <span style="color:#B7A08B;">Premium Threads Accounts</span>?
+                </h2>
+                <p style="font-size:1.1rem; color:rgba(254,250,247,0.8); margin:0 auto 30px;">
+                    Get high-quality Threads accounts with fast delivery and professional support.
+                </p>
+                <div class="threads-cta-btn-group d-flex flex-wrap justify-content-center gap-3">
+                    <a href="#threadsProducts" class="threads-cta-primary" style="background:#B7A08B; color:#023b45; border:none; padding:14px 38px; border-radius:60px; font-weight:700; font-size:0.95rem; transition:all 0.3s; text-decoration:none; display:inline-flex; align-items:center; gap:10px;">
+                        <i class="fas fa-shopping-cart"></i> Order Now
+                    </a>
+                    <a href="#" class="threads-cta-secondary" style="background:transparent; color:#FEFAF7; border:2px solid rgba(254,250,247,0.3); padding:12px 34px; border-radius:60px; font-weight:600; font-size:0.95rem; transition:all 0.3s; text-decoration:none; display:inline-flex; align-items:center; gap:8px;">
+                        <i class="fas fa-headset"></i> Contact Support
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========================================================
+   STYLES - Unique to this page
+   ========================================================= -->
+<style>
+    /* ========== UNIQUE THREADS PAGE STYLES ========== */
+    .section-padding {
+        padding: 80px 0;
+    }
+    
+    /* Hero hover effects */
+    .threads-hero-btn-primary:hover {
+        background: #333333 !important;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    .threads-hero-btn-secondary:hover {
+        border-color: #999 !important;
+        background: #f8f9fa;
+        transform: translateY(-3px);
+    }
+    
+    /* Type card hover */
+    .threads-type-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 40px rgba(0,0,0,0.10) !important;
+    }
+    .threads-type-btn:hover {
+        background: #012b34 !important;
+        transform: translateX(4px);
+        box-shadow: 0 8px 20px rgba(2,59,69,0.2);
+    }
+    
+    /* Product card hover */
+    .threads-product-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 40px rgba(0,0,0,0.12) !important;
+    }
+    .threads-product-cart-btn:hover {
+        background: #012b34 !important;
+        transform: scale(0.97);
+    }
+    .threads-product-detail-btn:hover {
+        background: rgba(2,59,69,0.06) !important;
+        border-color: #023b45 !important;
+    }
+    
+    /* Why choose cards hover */
+    .threads-why-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 30px rgba(0,0,0,0.08) !important;
+        border-color: #023b45 !important;
+    }
+    
+    /* Feature items hover */
+    .threads-feature-item:hover {
+        transform: translateX(6px);
+        border-color: #023b45 !important;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.06) !important;
+    }
+    
+    /* Order steps hover */
+    .threads-order-step:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 16px 40px rgba(0,0,0,0.10) !important;
+    }
+    
+    /* Dashboard cards hover */
+    .threads-dashboard-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 30px rgba(0,0,0,0.08) !important;
+    }
+    
+    /* Review cards hover */
+    .threads-review-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 30px rgba(0,0,0,0.08) !important;
+        border-color: #023b45 !important;
+    }
+    
+    /* FAQ toggle hover */
+    .threads-faq-toggle:hover {
+        background: rgba(2,59,69,0.02) !important;
+    }
+    .threads-faq-toggle:not(.collapsed) {
+        background: rgba(2,59,69,0.04) !important;
+    }
+    .threads-faq-toggle:not(.collapsed) span i {
+        transform: rotate(180deg);
+    }
+    
+    /* Trust cards hover */
+    .threads-trust-card:hover {
+        transform: translateY(-6px);
+        box-shadow: 0 12px 30px rgba(0,0,0,0.08) !important;
+        border-color: #023b45 !important;
+    }
+    
+    /* CTA buttons hover */
+    .threads-cta-primary:hover {
+        background: #a08b77 !important;
+        transform: translateY(-3px);
+        box-shadow: 0 10px 30px rgba(183,160,139,0.4);
+    }
+    .threads-cta-secondary:hover {
+        border-color: #FEFAF7 !important;
+        background: rgba(254,250,247,0.08);
+        transform: translateY(-3px);
+    }
+    
+    /* Responsive */
+    @media (max-width: 991px) {
+        .section-padding {
+            padding: 60px 0;
+        }
+        .threads-hero-headline {
+            font-size: 2.8rem !important;
+        }
+        .threads-hero-stats {
+            gap: 16px !important;
+        }
+        .threads-stat-number {
+            font-size: 1.8rem !important;
+        }
+    }
+    
+    @media (max-width: 767px) {
+        .section-padding {
+            padding: 40px 0;
+        }
+        .threads-hero-headline {
+            font-size: 2.2rem !important;
+        }
+        .threads-hero-stats {
+            gap: 12px !important;
+        }
+        .threads-stat-number {
+            font-size: 1.4rem !important;
+        }
+        .threads-cta-btn-group {
+            flex-direction: column;
+            align-items: center;
+        }
+        .threads-cta-btn-group a {
+            width: 100%;
+            max-width: 280px;
+            justify-content: center;
+        }
+        .threads-product-btns {
+            flex-direction: column;
+        }
+        .threads-product-btns button {
+            width: 100%;
+        }
+        .threads-dashboard-grid .col-md-6 {
+            padding: 0 6px;
+        }
+        .threads-reviews-grid .col-md-6 {
+            padding: 0 6px;
+        }
+        .threads-why-grid .col-md-6 {
+            padding: 0 6px;
+        }
+        .threads-features-grid .col-sm-6 {
+            padding: 0 6px;
+        }
+        .threads-trust-grid .col-md-6 {
+            padding: 0 6px;
+        }
+        .threads-types-grid .col-md-6 {
+            padding: 0 6px;
+        }
+        .threads-products-grid .col-md-6 {
+            padding: 0 6px;
+        }
+        .threads-order-steps .col-md-6 {
+            padding: 0 6px;
+        }
+        .threads-faq-toggle {
+            font-size: 0.85rem !important;
+            padding: 14px 16px !important;
+        }
+        .threads-faq-body {
+            font-size: 0.85rem !important;
+            padding: 0 16px 16px !important;
+        }
+    }
+    
+    @media (max-width: 575px) {
+        .threads-hero-headline {
+            font-size: 1.8rem !important;
+        }
+        .threads-type-card {
+            padding: 1.2rem !important;
+        }
+        .threads-product-card {
+            padding: 0 !important;
+        }
+        .threads-product-card h4 {
+            font-size: 0.9rem !important;
+        }
+        .threads-product-card .threads-product-cart-btn,
+        .threads-product-card .threads-product-detail-btn {
+            font-size: 0.65rem !important;
+            padding: 4px 10px !important;
+        }
+        .threads-why-card {
+            padding: 1rem !important;
+        }
+        .threads-why-card h4 {
+            font-size: 0.9rem !important;
+        }
+        .threads-why-card p {
+            font-size: 0.75rem !important;
+        }
+        .threads-review-card {
+            padding: 1rem !important;
+        }
+        .threads-review-card p {
+            font-size: 0.8rem !important;
+        }
+        .threads-dashboard-card {
+            padding: 1rem !important;
+        }
+        .threads-dashboard-card span {
+            font-size: 0.9rem !important;
+        }
+        .threads-order-step {
+            padding: 1rem !important;
+        }
+        .threads-order-step h4 {
+            font-size: 0.95rem !important;
+        }
+        .threads-trust-card {
+            padding: 0.8rem !important;
+        }
+        .threads-trust-card div:first-child {
+            font-size: 1.8rem !important;
+        }
+        .threads-trust-card div:last-child {
+            font-size: 0.7rem !important;
+        }
+    }
+
+    /* ── Scrollbar fix: force hide overflow on hero and all children ── */
+    html, body { overflow-x: hidden; width: 100%; max-width: 100%; }
+    .threads-hero-master-nexus,
+    .threads-hero-master-nexus * {
+        overflow-x: hidden !important;
+        overflow-y: hidden !important;
+    }
+</style>
+
+<!-- =========================================================
+   SCRIPTS FOR INTERACTIVE FEATURES
+   ========================================================= -->
+<script>
+    (function() {
+        'use strict';
+        
+        // ============================
+        // AOS INITIALIZATION
+        // ============================
+        if (typeof AOS !== 'undefined') {
+            AOS.init({
+                duration: 700,
+                once: true,
+                offset: 20,
+                easing: 'ease-out-cubic',
+                mirror: false,
+            });
+        }
+        
+        // ============================
+        // COUNTER ANIMATIONS
+        // ============================
+        function startThreadsCounters() {
+            const counters = document.querySelectorAll('[data-threads-counter]');
+            counters.forEach(el => {
+                const target = parseInt(el.getAttribute('data-threads-counter'));
+                if (isNaN(target) || target <= 0) return;
+                
+                let current = 0;
+                const duration = 2000;
+                const steps = 60;
+                const increment = target / steps;
+                let step = 0;
+                
+                const timer = setInterval(() => {
+                    step++;
+                    current += increment;
+                    if (step >= steps) {
+                        el.innerText = target + (target === 99 ? '%' : target === 24 ? '' : '');
+                        clearInterval(timer);
+                    } else {
+                        el.innerText = Math.floor(current);
+                    }
+                }, duration / steps);
+            });
+        }
+        
+        // Use Intersection Observer for counters
+        const counterObserver = new IntersectionObserver((entries) => {
+            let shouldStart = false;
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    shouldStart = true;
+                }
+            });
+            if (shouldStart) {
+                startThreadsCounters();
+                counterObserver.disconnect();
+            }
+        }, { threshold: 0.3 });
+        
+        const heroSection = document.getElementById('threadsHeroMaster');
+        if (heroSection) {
+            counterObserver.observe(heroSection);
+        }
+        
+        // ============================
+        // FAQ ACCORDION TOGGLE - Fix chevron rotation
+        // ============================
+        document.querySelectorAll('.threads-faq-toggle').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const chevron = this.querySelector('span i');
+                if (chevron) {
+                    // Check if the target collapse is shown or hidden
+                    const targetId = this.getAttribute('data-bs-target');
+                    if (targetId) {
+                        const target = document.querySelector(targetId);
+                        if (target) {
+                            // Toggle will happen via Bootstrap, we check after a small delay
+                            setTimeout(() => {
+                                if (target.classList.contains('show')) {
+                                    chevron.style.transform = 'rotate(180deg)';
+                                } else {
+                                    chevron.style.transform = 'rotate(0deg)';
+                                }
+                            }, 50);
+                        }
+                    }
+                }
+            });
+        });
+        
+        // Initialize chevron states
+        document.querySelectorAll('.threads-faq-toggle').forEach(btn => {
+            const chevron = btn.querySelector('span i');
+            if (chevron) {
+                const targetId = btn.getAttribute('data-bs-target');
+                if (targetId) {
+                    const target = document.querySelector(targetId);
+                    if (target && target.classList.contains('show')) {
+                        chevron.style.transform = 'rotate(180deg)';
+                    } else {
+                        chevron.style.transform = 'rotate(0deg)';
+                    }
+                }
+            }
+        });
+        
+        // ============================
+        // ADD TO CART BUTTONS
+        // ============================
+        document.querySelectorAll('.threads-product-cart-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const originalText = this.innerHTML;
+                this.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Adding...';
+                this.disabled = true;
+                
+                setTimeout(() => {
+                    this.innerHTML = '<i class="fas fa-check"></i> Added!';
+                    this.style.background = '#27ae60';
+                    
+                    setTimeout(() => {
+                        this.innerHTML = originalText;
+                        this.style.background = '#023b45';
+                        this.disabled = false;
+                    }, 1500);
+                }, 800);
+            });
+        });
+        
+        // ============================
+        // SMOOTH SCROLL
+        // ============================
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                const target = document.querySelector(targetId);
+                if (target) {
+                    e.preventDefault();
+                    const top = target.getBoundingClientRect().top + window.pageYOffset - 80;
+                    window.scrollTo({ top, behavior: 'smooth' });
+                }
+            });
+        });
+        
+        console.log('✅ Premium Threads Accounts Page loaded successfully.');
+    })();
+</script>
+<?php
+
+include 'footer.php';
+?>
+</body>
+</html>
